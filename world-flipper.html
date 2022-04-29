@@ -5,13 +5,44 @@
         <meta charset="UTF-8"/>
         <meta name="description" content="*-*的網站"/>
         <meta name="author" content="*-*"/>
-        <meta name="keyword" content="彈射世界"/>
+        <meta name="keyword" content="彈射世界"/>  
         <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
         <title>六屬簡評</title>
     </head>
     <body>
-        
+       
         <body background="https://i.imgur.com/b9famTw.png" class="back" style="background-repeat: no-repeat;" class="back"></body>
+        <script src="https://cdn.jsdelivr.net/npm/darkmode-js@1.5.7/lib/darkmode-js.min.js"></script>
+        <script>
+            function addDarkmodeWidget() {
+              new Darkmode().showWidget();
+            }
+            window.addEventListener('load', addDarkmodeWidget);
+          </script>
+        <script>
+           const options = {
+  bottom: '64px', // default: '32px'
+  right: 'unset', // default: '32px'
+  left: '32px', // default: 'unset'
+  time: '0.5s', // default: '0.3s'
+  mixColor: '#fff', // default: '#fff'
+  backgroundColor: '#fff',  // default: '#fff'
+  buttonColorDark: '#100f2c',  // default: '#100f2c'
+  buttonColorLight: '#fff', // default: '#fff'
+  saveInCookies: false, // default: true,
+  label: '🌓', // default: ''
+  autoMatchOsTheme: true // default: true
+}
+
+const darkmode = new Dar
+        </script>
+        <script>
+          function addDarkmodeWidget() {
+            new Darkmode().showWidget();
+          }
+          window.addEventListener('load', addDarkmodeWidget);
+        </script>
+       
         
         <input type="checkbox" id="navbarToggle">
         <header class="main-header">
@@ -27,7 +58,19 @@
                     <li><a href="#">明日方舟</a></li>
                   </ul>
                 </li>
-                <li><a href="#">聯絡我們</a></li>
+                <li><a href="#">屬性</a>
+                    
+                        <ul class="sub-menu">
+                          <li><a href="#team1">火屬</a></li>
+                          <li><a href="#team2">水屬</a></li>
+                          <li><a href="#team3">雷屬</a></li>
+                          <li><a href="#team4">風屬</a></li>
+                          <li><a href="#team5">光屬</a></li>
+                          <li><a href="#team6">暗屬</a></li>
+                          <li><a href="#team7">宇宙pf</a></li>
+                        </ul>
+                      </li>
+                
               </ul>
             </nav>
             <label for="navbarToggle"><span class="material-icons">expand_more</span></label>
@@ -41,7 +84,7 @@
     <input type="button" onclick="location.href='https://play.google.com/store/apps/details?id=air.com.gamania.worldflipper'" class="newbtn">
     <input type="button" onclick="location.href='https://apps.apple.com/tw/app/%E5%BD%88%E5%B0%84%E4%B8%96%E7%95%8C/id1512089665'" class="newbtn2">
     <hr/>
-    <div style="font-family:Microsoft JhengHei;">
+    <div style="font-family:Microsoft JhengHei;" id="team1">
         <h1 style="color: crimson;">火屬</h1>
         <h2><i>星忍魔劍雙發技傷  </i></h2>
         <h3>秒天秒地秒空氣，強到哭</h3>
@@ -49,7 +92,7 @@
         <h3><a href="https://forum.gamer.com.tw/C.php?bsn=37689&snA=4320&tnum=7">⌾更多資料</a></h3>
     </div>
     <hr/>
-    <div style="font-family:Microsoft JhengHei;">
+    <div style="font-family:Microsoft JhengHei;" id="team2">
         <h1 style="color: blue;">水屬</h1>
         <h2><i>水彈水坦技傷</i></h2>
         <h2 style="color: cadetblue;">水彈我婆</h2>
@@ -58,7 +101,7 @@
         <button style= "width:200px;height:30px;border:2px blue none;background-color:rgb(0, 140, 255);" id="button1" onclick="window.open('https://en.wikipedia.org/wiki/Puppy')">更多資訊</button>
     </div>
     <hr/>
-    <div style="font-family:Microsoft JhengHei;">
+    <div style="font-family:Microsoft JhengHei;" id="team3">
         <h1 style="color: gold;">雷屬</h1>
         <h2><i>雷至尊</i></h2>
         <h2 style="color: red;">須注意蜜蜂二版有充能</h2>
@@ -71,27 +114,27 @@
         <button  style="width:200px;height:30px;border:2px   rgb(242, 255, 0) none;background-color:rgb(251, 255, 0);" id="button2" onclick="window.open('https://forum.gamer.com.tw/C.php?bsn=37689&snA=8994&tnum=17')">禮機世界</button>
     </div>
     <hr/>
-    <div style="font-family:Microsoft JhengHei;">
+    <div style="font-family:Microsoft JhengHei;" id="team4">
         <h1 style="color: darkgreen;">風屬</h1>
         <h2><i>宗士郎四合一</i></h2>
         <h3>便宜好用</h3>
         <img height="250" width="500" src="https://truth.bahamut.com.tw/s01/202203/5f9fe57554c324f8ba393615b7c734c0.PNG"/>
     </div>
     <hr/>
-    <div style="font-family:Microsoft JhengHei;">
+    <div style="font-family:Microsoft JhengHei;" id="team5">
         <h1 style="color: goldenrod;">光屬</h1>
         <h2><i>光fever</i></h2>
         <h3>入坑用到現在的本命，又香又強，我可以為了這隊寫整篇心得</h3>
         <img height="250" width="500" src="https://truth.bahamut.com.tw/s01/202203/1d8808fb3dc1d62f0826b31ccff37bac.PNG?w=1000"/>
     </div>
     <hr/>
-    <div style="font-family:Microsoft JhengHei;">
+    <div style="font-family:Microsoft JhengHei;" id="team6">
         <h1 style="color: darkslateblue;">暗屬</h1>
         <h2><i>超高貴黑貓D天開場雙發 超光用</i></h2>
         <h3>多強我是不知道，反正我沒有</h3>
         <img height="250" width="500" src="https://truth.bahamut.com.tw/s01/202203/d317381866c6300b37a7fe54e6cc653f.PNG?w=1000"/>
     </div>
-    <div style="font-family:Microsoft JhengHei;">
+    <div style="font-family:Microsoft JhengHei;" id="team7">
         <h1 style="color: darkslateblue;">宇宙風車pf</h1>
         <h2><i>電鋸人</i></h2>
         <font color="#FF0000">宇</font>
@@ -126,10 +169,12 @@
             </div>
         </div>
         <script src="script.js"></script>
-    </body>
-</html>
-
-
-    </body>
     
+    
+    </body>
 </html>
+
+
+    
+    
+
