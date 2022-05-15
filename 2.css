@@ -236,9 +236,9 @@ ul li{
 .center{
   position: absolute;
   left: 25%;
-  width: 50%;
-    background-color: white;
-  height: 100vh;
+  width: 50vw;
+  height: 120vh;
+  background-color:white;
   align-items: center; 
 }
 
