@@ -224,6 +224,75 @@ img {
             transform: translateY(-6px) rotate(-1.2deg);
   }
 }
+.main-footer {
+  padding: 25px 0;
+  background-color: #488286;
+}
+
+.container {
+  width: 1200px;
+  margin: auto;
+  display: flex;
+}
+
+.item {
+  width: 270px;
+  margin: 0 15px;
+}
+
+.item h3 {
+  color: #fff;
+  padding-bottom: .5em;
+  margin-bottom: .5em;
+  border-bottom: 1px dotted #fff;
+}
+
+.item li {
+  margin-bottom: 15px;
+}
+
+.item li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.item li a:hover {
+  color: #fed766;
+}
+
+.subs form {
+  display: flex;
+  width: 100%;
+  margin: auto 0px;
+}
+
+.subs input[type="email"],
+.subs button {
+  border: none;
+  padding: 5px 10px;
+}
+
+.subs input[type="email"]:focus,
+.subs button:focus {
+  outline: none;
+}
+
+.subs input[type="email"]:focus::placeholder {
+  color: transparent;
+}
+
+.subs input[type="email"] {
+  width: 0;
+  flex-grow: 1;
+  color: #f56476;
+}
+
+.subs button {
+  color: #fff;
+  background-color: #0a090c;
+  cursor: pointer;
+}
+
 .copyright {
   background-color: #0a090c;
   padding: 5px 0;
