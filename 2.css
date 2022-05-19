@@ -242,7 +242,21 @@ ul li{
   align-items: center; 
 }
 
-
+.left{
+  position:fixed;
+  width: 20vw;
+  height: 20vh;
+  background-color:white;
+  align-items: center; 
+}
+.left-card{
+  float: left;
+}
+.left-text{
+  float: right;
+  width: 200px;
+   
+}
 
 
 
